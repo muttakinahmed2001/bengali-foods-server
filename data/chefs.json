@@ -1,116 +1,106 @@
 [
     {
         "id": 1,
-        "name": "Chef Kamal Hossain",
+        "name": "Kamal Hossain",
         "picture": "https://media.licdn.com/dms/image/C5103AQF514GO4Rvc8g/profile-displayphoto-shrink_800_800/0/1571942723931?e=2147483647&v=beta&t=SnuQ5QPwhzZPY_CKl_ArjUQYx3Dt09zBcV9ruoXTPnc",
         "experience": "10 years",
-        "num_recipes": 50,
+        "numRecipes": 50,
         "likes": 1000,
         "bio": "Chef Kamal Hossain is a renowned chef in Bangladesh, known for his exquisite seafood dishes. With over 10 years of experience in the culinary industry, he has won multiple awards for his cooking.",
         "recipes": [
             {
-                "name": "Shorshe Ilish (Mustard Hilsa)",
+                "id": "name": "Shorshe Ilish (Mustard Hilsa)",
                 "ingredients": [
-                    "hilsa fish",
-                    "mustard paste",
-                    "green chillies",
-                    "turmeric powder",
+                    "hilsa fish,",
+                    "mustard paste,",
+                    "green chillies,",
+                    "turmeric powder,",
                     "oil"
                 ],
-                "cooking_method": "Marinate the fish with salt and turmeric powder. Fry the fish until golden brown. In another pan, heat oil and add mustard paste and green chillies. Add water and bring to a boil. Add the fish to the mustard gravy and simmer for a few minutes. Serve hot with steamed rice.",
+                "method": "Marinate the fish with salt and turmeric powder. Fry the fish until golden brown. In another pan, heat oil and add mustard paste and green chillies. Add water and bring to a boil. Add the fish to the mustard gravy and simmer for a few minutes. Serve hot with steamed rice.",
                 "ratings": 4.5
             },
             {
                 "name": "Chingri Malai Curry (Prawn Coconut Curry)",
                 "ingredients": [
-                    "prawns",
-                    "coconut milk",
-                    "onions",
-                    "garlic",
-                    "ginger",
+                    "prawns,",
+                    "coconut milk,",
+                    "onions,",
+                    "garlic,",
+                    "ginger,",
                     "turmeric powder"
                 ],
-                "cooking_method": "Heat oil in a pan and sauté onions, garlic, and ginger. Add turmeric powder and prawns and cook until the prawns turn pink. Add coconut milk and simmer for a few minutes. Serve hot with steamed rice.",
+                "method": "Heat oil in a pan and sauté onions, garlic, and ginger. Add turmeric powder and prawns and cook until the prawns turn pink. Add coconut milk and simmer for a few minutes. Serve hot with steamed rice.",
                 "ratings": 4.8
             },
             {
                 "name": "Bhapa Doi (Steamed Yogurt)",
                 "ingredients": [
-                    "yogurt",
-                    "condensed milk",
+                    "yogurt,",
+                    "condensed milk,",
                     "cardamom powder"
                 ],
-                "cooking_method": "Whisk yogurt, condensed milk, and cardamom powder together. Pour the mixture into a greased bowl and cover with foil. Steam for 20-25 minutes. Chill in the fridge for a few hours before serving.",
+                "method": "Whisk yogurt, condensed milk, and cardamom powder together. Pour the mixture into a greased bowl and cover with foil. Steam for 20-25 minutes. Chill in the fridge for a few hours before serving.",
                 "ratings": 4.2
             }
         ]
     },
-    {"id":2,
+    {
+        "id": 2,
         "name": "Abdul Rahman",
-        "picture": "https://scontent.fdac24-2.fna.fbcdn.net/v/t39.30808-6/329315537_880916796582115_1141871926676474662_n.jpg?stp=dst-jpg_p526x296&_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeH80eUNGHIWt0BqAscnK6jr_xZd1jC-PCz_Fl3WML48LHkNayLCrcKK6QPJGB3FxlfeGfp9guzL8rXsvdMSf4tu&_nc_ohc=0kaUnSV3KzIAX_4gDq9&_nc_ht=scontent.fdac24-2.fna&oh=00_AfBbvlTZdguem0Dz-UhKD_onBLzncwFM81ZP8i3_3Lzr_g&oe=6456D0E8",
+        "picture": "https://d2bn8tb344j6vy.cloudfront.net/GrqU0aOBxZ/profile/488024_8298390120869841_389377702944238407764955891892250479.jpg",
         "experience": "10 years",
         "numRecipes": 50,
         "likes": 8000,
         "bio": "Abdul Rahman is a passionate chef who has been in the culinary industry for over 10 years. He specializes in creating fusion dishes that combine traditional Bangladeshi ingredients with international flavors.",
         "recipes": [
             {
-                "name": "Spicy Chicken Curry",
+                "id": "name": "Spicy Chicken Curry",
                 "ingredients": [
-                    "chicken",
-                    "tomato",
+                    "chicken,",
+                    "tomato,",
                     "onion",
-                    "ginger",
-                    "garlic",
+                    "ginger,",
+                    "garlic,",
                     "spices"
                 ],
                 "method": "Marinate chicken with spices and saute with onion, tomato, ginger, and garlic. Cook until chicken is tender and sauce is thickened.",
                 "ratings": [
-                    4,
-                    5,
-                    4,
-                    3,
                     5
                 ]
             },
             {
                 "name": "Fish Kebab",
                 "ingredients": [
-                    "fish",
-                    "bread crumbs",
-                    "spices",
-                    "lemon",
+                    "fish,",
+                    "bread crumbs,",
+                    "spices,",
+                    "lemon,",
                     "yogurt"
                 ],
                 "method": "Marinate fish with spices, lemon, and yogurt. Coat with bread crumbs and grill until golden brown.",
                 "ratings": [
-                    5,
-                    4,
-                    5,
-                    4,
                     4
                 ]
             },
             {
                 "name": "Mango Lassi",
                 "ingredients": [
-                    "mango",
-                    "yogurt",
-                    "sugar",
-                    "cardamom",
+                    "mango,",
+                    "yogurt,",
+                    "sugar,",
+                    "cardamom,",
                     "ice"
                 ],
                 "method": "Blend mango, yogurt, sugar, and cardamom with ice until smooth.",
                 "ratings": [
-                    5,
-                    5,
-                    5,
-                    4,
-                    5
+                    4
                 ]
             }
         ]
     },
-    {"id":3,
+    {
+        "id": 3,
         "name": "Imran Ahmed",
         "picture": "https://media.licdn.com/dms/image/C4D03AQFVKU1fxn-bGQ/profile-displayphoto-shrink_800_800/0/1658258758702?e=2147483647&v=beta&t=1kF8pyJEatsU1gFqLrGCOvVfwgj1HczP-p6HSj17Skc",
         "experience": "12 years",
@@ -119,63 +109,51 @@
         "bio": "Imran Ahmed is a creative chef who has been in the culinary industry for over 12 years. He specializes in creating unique dishes that highlight the diverse flavors of Bangladeshi cuisine.",
         "recipes": [
             {
-                "name": "Lamb Korma",
+                "id": "name": "Lamb Korma",
                 "ingredients": [
-                    "lamb",
-                    "yogurt",
-                    "onion",
-                    "spices",
-                    "almonds"
+                    "lamb,",
+                    "yogurt,",
+                    "onion,",
+                    "spices,",
+                    "almonds,"
                 ],
                 "method": "Saute onion and spices, then add lamb and yogurt. Simmer until lamb is tender and sauce is thickened. Garnish with toasted almonds.",
                 "ratings": [
-                    5,
-                    4,
-                    5,
-                    4,
                     5
                 ]
             },
             {
                 "name": "Shrimp Biryani",
                 "ingredients": [
-                    "shrimp",
-                    "rice",
-                    "spices",
-                    "tomato",
+                    "shrimp,",
+                    "rice,",
+                    "spices,",
+                    "tomato,",
                     "peas"
                 ],
                 "method": "Cook rice and shrimp separately, then layer with spices, tomato, and peas. Bake in the oven for 20 minutes.",
                 "ratings": [
-                    4,
-                    5,
-                    4,
-                    3,
-                    5
+                    4
                 ]
             },
             {
                 "name": "Mango Chutney",
                 "ingredients": [
-                    "mango",
-                    "sugar",
-                    "vinegar",
-                    "ginger",
+                    "mango,",
+                    "sugar,",
+                    "vinegar,",
+                    "ginger,",
                     "raisins"
                 ],
                 "method": "Combine mango, sugar, vinegar, ginger, and raisins in a pot. Simmer until thickened.",
                 "ratings": [
-                    5,
-                    5,
-                    5,
-                    4,
-                    5
+                    4
                 ]
             }
         ]
     },
-    {"id":4,
-
+    {
+        "id": 4,
         "name": "Kamal Ahmed",
         "picture": "https://thetoptenchefs.com/wp/wp-content/uploads/2016/10/MAnik-Miah-top-10-chefs-in-Bangladesh.jpg",
         "experience": "8 years",
@@ -184,61 +162,50 @@
         "bio": "Kamal Ahmed is a young and talented chef who has been in the culinary industry for 8 years. He is known for his innovative approach to Bangladeshi cuisine, and for his use of fresh, local ingredients.",
         "recipes": [
             {
-                "name": "Chicken Kebab",
+                "id": "name": "Chicken Kebab",
                 "ingredients": [
-                    "chicken",
-                    "yogurt",
-                    "spices",
-                    "onion",
+                    "chicken,",
+                    "yogurt,",
+                    "spices,",
+                    "onion,",
                     "mint"
                 ],
                 "method": "Marinate chicken with yogurt, spices, and mint. Skewer with onion and grill until golden brown.",
                 "ratings": [
-                    4,
-                    5,
-                    4,
-                    3,
-                    5
+                    4
                 ]
             },
             {
                 "name": "Spinach Curry",
                 "ingredients": [
-                    "spinach",
-                    "potato",
-                    "onion",
-                    "tomato",
+                    "spinach,",
+                    "potato,",
+                    "onion,",
+                    "tomato,",
                     "spices"
                 ],
                 "method": "Saute onion and spices, then add potato and tomato. Add spinach and simmer until wilted.",
                 "ratings": [
-                    5,
-                    4,
-                    5,
-                    4,
-                    5
+                    4.5
                 ]
             },
             {
                 "name": "Lemonade",
                 "ingredients": [
-                    "lemon",
-                    "sugar",
-                    "water",
+                    "lemon,",
+                    "sugar,",
+                    "water,",
                     "mint"
                 ],
                 "method": "Combine lemon juice, sugar, water, and mint. Chill and serve.",
                 "ratings": [
-                    5,
-                    5,
-                    5,
-                    4,
-                    5
+                    4.5
                 ]
             }
         ]
     },
-    {"id":5,
+    {
+        "id": 5,
         "name": "Nasir Uddin",
         "picture": "https://media.licdn.com/dms/image/C4D03AQHsB0JyaTOXdg/profile-displayphoto-shrink_800_800/0/1545747026864?e=2147483647&v=beta&t=_RqvSBTDmxwOAegFzQiDyvSrs6AKNYhSiu4f_ezgLrI",
         "experience": " 15 years",
@@ -247,57 +214,45 @@
         "bio": "Nasir Uddin is a well-known Bangladeshi chef who has been in the culinary industry for 15 years. He is known for his use of traditional spices and techniques in his cooking, and for his dedication to promoting Bangladeshi cuisine.",
         "recipes": [
             {
-                "name": "Fish Bhuna",
+                "id": "name": "Fish Bhuna",
                 "ingredients": [
-                    "fish",
-                    "onion",
-                    "tomato",
-                    "spices",
+                    "fish,",
+                    "onion,",
+                    "tomato,",
+                    "spices,",
                     "coriander"
                 ],
                 "method": "Saute onion and spices, then add tomato and cook until softened. Add fish and cook until tender. Garnish with coriander.",
                 "ratings": [
-                    4,
-                    5,
-                    4,
-                    3,
-                    5
+                    4.5
                 ]
             },
             {
                 "name": "Mixed Vegetable Curry",
                 "ingredients": [
-                    "potato",
-                    "carrot",
-                    "beans",
-                    "peas",
+                    "potato,",
+                    "carrot,",
+                    "beans,",
+                    "peas,",
                     "spices"
                 ],
                 "method": "Saute spices, then add vegetables and cook until tender. Serve hot.",
                 "ratings": [
-                    5,
-                    4,
-                    5,
-                    4,
-                    5
+                    4
                 ]
             },
             {
                 "name": "Coconut Rice Pudding",
                 "ingredients": [
-                    "rice",
-                    "coconut milk",
-                    "sugar",
-                    "cardamom",
+                    "rice,",
+                    "coconut milk,",
+                    "sugar,",
+                    "cardamom,",
                     "raisins"
                 ],
                 "method": "Cook rice in coconut milk with sugar and cardamom. Add raisins and cook until thick and creamy. Serve chilled.",
                 "ratings": [
-                    5,
-                    5,
-                    5,
-                    4,
-                    5
+                    4.5
                 ]
             }
         ]
@@ -305,47 +260,39 @@
     {
         "id": 6,
         "name": "Saif Hasan",
-        "picture": "https://media.licdn.com/dms/image/D5603AQEP1NGaBLMAew/profile-displayphoto-shrink_800_800/0/1665861249872?e=2147483647&v=beta&t=IN8jIpTW1BnhSCWhc4m9zKll5TKZe3GEz9r8xQLdZz0",
+        "picture": "https://media.licdn.com/dms/image/D4E03AQFwLeyRR2ZUaA/profile-displayphoto-shrink_800_800/0/1667253364601?e=2147483647&v=beta&t=ZLu4D45gJpOoV-D72QnKJ36yD97xLh86UXQ8gHhqksY",
         "experience": "12 years",
         "numRecipes": 50,
         "likes": 7000,
         "bio": "Abdul Matin is a young and talented Bangladeshi chef who has been in the culinary industry for 12 years. He is known for his creative approach to Bangladeshi cuisine, and for his use of modern techniques and ingredients.",
         "recipes": [
             {
-                "id": 1,
+                "id": "id": 1,
                 "name": "Chicken Biryani",
                 "ingredients": [
-                    "chicken",
-                    "rice",
-                    "spices",
-                    "onion",
+                    "chicken,",
+                    "rice,",
+                    "spices,",
+                    "onion,",
                     "yogurt"
                 ],
                 "method": "Marinate chicken with yogurt and spices. Layer with rice and cook until tender. Garnish with fried onion.",
                 "ratings": [
-                    4,
-                    5,
-                    4,
-                    3,
-                    5
+                    4.5
                 ]
             },
             {
                 "id": 1,
                 "name": "Mutton Curry",
                 "ingredients": [
-                    "mutton",
-                    "onion",
-                    "tomato",
-                    "spices",
+                    "mutton,",
+                    "onion,",
+                    "tomato,",
+                    "spices,",
                     "ginger"
                 ],
                 "method": "Saute onion and ginger, then add tomato and spices. Add mutton and cook until tender.",
                 "ratings": [
-                    5,
-                    4,
-                    5,
-                    4,
                     5
                 ]
             },
@@ -353,18 +300,14 @@
                 "id": 1,
                 "name": "Gulab Jamun",
                 "ingredients": [
-                    "milk powder",
-                    "flour",
-                    "sugar",
-                    "cardamom",
+                    "milk powder,",
+                    "flour,",
+                    "sugar,",
+                    "cardamom,",
                     "oil"
                 ],
                 "method": "Mix milk powder and flour, then add water and form into balls. Fry in oil until golden brown, then soak in sugar syrup flavored with cardamom.",
                 "ratings": [
-                    5,
-                    5,
-                    5,
-                    4,
                     5
                 ]
             }
